@@ -1,7 +1,7 @@
 import subprocess
 
 
-token = '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'
+token = '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'
 git_url = 'github.com/huojiayang/github.git'
 cmd = "cd /Users/zhongfener/Desktop/python/pythonProject"
 returned_value = subprocess.call(cmd, shell=True)
