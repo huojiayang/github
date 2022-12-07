@@ -24,7 +24,7 @@ print(665555)
 cmd = "git remote add origin https://{}@{}".format(token, git_url)
 subprocess.call(cmd, shell=True)
 print(222)
-cmd = "git push -u origin master"
+cmd = "git push -u origin master -f"
 subprocess.call(cmd, shell=True)
 
 print(cmd, 66666)
