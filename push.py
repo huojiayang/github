@@ -2,7 +2,7 @@ import subprocess
 
 
 token = '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'
-git_url = 'github.com/huojiayang/123.git'
+git_url = 'github.com/huojiayang/github.git'
 cmd = "cd /Users/zhongfener/Desktop/python/pythonProject"
 returned_value = subprocess.call(cmd, shell=True)
 
@@ -24,7 +24,7 @@ print(665555)
 cmd = "git remote add origin https://{}@{}".format(token, git_url)
 subprocess.call(cmd, shell=True)
 print(222)
-cmd = "git push -u origin master -f"
+cmd = "git push -u origin master"
 subprocess.call(cmd, shell=True)
 
 print(cmd, 66666)
